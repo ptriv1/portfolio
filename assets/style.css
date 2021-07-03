@@ -1,13 +1,14 @@
-* {
-    background-color: peachpuff;
+* { 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 10 0 0 10;
 }
 
 header {
     background-color: black;
+    color: aliceblue;
+    padding: 10px;
 }
 
 footer {
     background-color: black;
+    color: aliceblue;
 }
