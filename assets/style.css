@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    background-color: green;
     text-align: center;
 
 }
@@ -54,6 +53,10 @@ nav ul li {
     padding: 0px 10px 0px 10px;
 }
 
+.list-item {
+
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -65,8 +68,16 @@ a {
     padding: 0px 20px 0px 20px;
 }
 
+.first-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 .picture {
-    size: 60%;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.6;
 }
 
 .paragraph {
@@ -74,9 +85,8 @@ a {
 }
 
 
-.about-me, .projects {
-    padding: 10px;
-    margin: 10px;
+.about-me {
+    background-color: #9cd08f;
 }
 
 .contact {
@@ -84,7 +94,13 @@ a {
     padding: 20px;
 }
 
+.projects {
+    background-color: #d5b0ac;
+}
 
+#footer {
+    background-color: black;
+}
 
 footer {
     background-color: black;
