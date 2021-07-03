@@ -7,9 +7,10 @@
 .flex-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background-color: green;
-    justify-content: space-around;
+    align-content: center;
+
 }
 
 header {
@@ -35,9 +36,6 @@ nav ul li {
     padding: 0px 10px 0px 10px;
 }
 
-body {
-    background-color: white;
-}
 
 .about-me {
     padding: 10px;
@@ -45,7 +43,6 @@ body {
 }
 
 .contact {
-    float: right;
     background-color: #9ece9a;
     padding: 20px;
 }
