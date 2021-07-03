@@ -28,11 +28,11 @@ header {
         
     }
 
-    ul li {
+    nav ul li {
         text-align: center;
         padding: 10px;
         border-color: white;
-        border: 1px;
+        border: 5px;
     }
     
 }
@@ -63,6 +63,10 @@ a {
     font-size: 42px;
     text-align: center;
     padding: 0px 20px 0px 20px;
+}
+
+.picture {
+    flex-grow: 200;
 }
 
 .paragraph {
