@@ -19,6 +19,14 @@ header {
     padding: 10px;
 }
 
+@media screen and (max-width: 600px) {
+
+    .nav {
+        display: block;
+    }
+    
+}
+
 nav {
     text-style: none;
 
@@ -36,8 +44,23 @@ nav ul li {
     padding: 0px 10px 0px 10px;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
-.about-me {
+.heading {
+    font-size: 42px;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+
+.about-me, .projects {
     padding: 10px;
     margin: 10px;
 }
@@ -47,10 +70,7 @@ nav ul li {
     padding: 20px;
 }
 
-.projects {
-    padding: 10px;
-    margin: 10px;
-}
+
 
 footer {
     background-color: black;
