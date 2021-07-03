@@ -1,14 +1,48 @@
 * { 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: black;
-    color: aliceblue;
+    color: #f8f4e3;
     padding: 10px;
+}
+
+nav {
+    text-style: none;
+
+}
+
+nav ul {
+    text-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    float: right;
+    padding: 0px 10px 0px 10px;
+}
+
+body {
+    background-color: white;
+}
+
+.about-me {
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact {
+    float: right;
+    background-color: #9ece9a;
+    padding: 20px;
 }
 
 footer {
     background-color: black;
-    color: aliceblue;
+    color: #f8f4e3;
 }
