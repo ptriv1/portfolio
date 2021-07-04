@@ -100,15 +100,17 @@ a:hover {
 
 .about-me {
     background-color: #9cd08f;
+    padding: 30px;
 }
 
 .contact {
     background-color: #9ece9a;
-    padding: 20px;
+    padding: 30px;
 }
 
 .projects {
     background-color: #d5b0ac;
+    padding: 30px;
 }
 
 .first-portfolio-title {
@@ -123,6 +125,11 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 20px;
+  }
+
+  .placeholder {
+      padding: 30px;
   }
 
 #footer {
