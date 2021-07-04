@@ -62,7 +62,12 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #ff000f;
+}
+
 .heading {
+    margin: 10px 0px;
     font-size: 42px;
     text-align: center;
     padding: 0px 20px 0px 20px;
@@ -82,11 +87,11 @@ a {
 
 .centered {
     position: absolute;
-    font-size: 45px;
     top: 50%;
     left: 50%;
+    font-size: 45px;
     transform: translate(-50%, -50%);
-}
+  }
 
 .paragraph {
     text-align: center;
@@ -105,6 +110,20 @@ a {
 .projects {
     background-color: #d5b0ac;
 }
+
+.first-portfolio-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.centered-project {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 #footer {
     background-color: black;
