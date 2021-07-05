@@ -35,10 +35,6 @@ nav ul li {
     padding: 0px 10px 0px 10px;
 }
 
-.list-item {
-
-}
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -56,7 +52,7 @@ a:hover {
 }
 
 .first-image {
-    display: inline-block;
+    display: block;
     position: relative;
     text-align: center;
     color: white;
@@ -107,35 +103,35 @@ a:hover {
 }
 
 
-.about-me {
+.about-me, .contact {
     background-color: #9cd08f;
-    padding: 30px;
-}
-
-.contact {
-    background-color: #9ece9a;
     padding: 30px;
 }
 
 .projects {
     background-color: #d5b0ac;
     padding: 30px;
+    position: relative;
 }
 
 .first-project {
     position: relative;
 }
 
-.centered-project {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-  }
+.code-refactor-picture {
+    position: relative;
+}
 
-.project-title {
-    font-size: 30px;
+.projects-container {
+    display: flex;
+    flex-direction: row;  
+}
+
+.image-opaque: hover {
+    opacity: 0.6;
+}
+
+.caption {
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -145,39 +141,10 @@ a:hover {
     padding-right: 20px;
 }
 
-.projects-container {
-    display: flex;
-    flex-direction: row;  
-}
-
-.caption {
-    display: none;
-}
-
-.code-refactor-picture:hover + .caption {
-    display: block;
-    color: red;
-}
-
 .project-picture {
     display: inline-block;
     position: relative;
 }
-
-
-.placeholder {
-      padding: 30px;
-  }
-
-  .block {
-      position: absolute;
-      bottom: 20px;
-      right: 20px;
-      background-color: black;
-      color: white;
-      padding-left: 20px;
-      padding-right: 20px;
-  }
 
 .portfolio-pictures {
     display: inline-block;
