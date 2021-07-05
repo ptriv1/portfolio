@@ -126,16 +126,6 @@ a:hover {
     position: relative;
 }
 
-.first-portfolio-title {
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-        background-color: black;
-        color: white;
-        padding-left: 20px;
-        padding-right: 20px;
-}
-
 .centered-project {
     position: absolute;
     top: 50%;
@@ -155,18 +145,43 @@ a:hover {
     padding-right: 20px;
 }
 
+.projects-container {
+    display: flex;
+    flex-direction: row;
+   
+}
+
 .project-picture {
     display: inline-block;
+    position: relative;
+}
+project-picture: hover {
+    opacity: 0.6;
 }
 
 .placeholder {
       padding: 30px;
   }
 
+  .block {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background-color: black;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
 .portfolio-pictures {
     display: inline-block;
     width: 30%;
     height: auto;
+}
+
+.portfolio-pictures: hover {
+    opacity: 0.6;
+
 }
 
 #footer {
