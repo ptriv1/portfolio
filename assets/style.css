@@ -97,6 +97,13 @@ a:hover {
     text-align: center;
 }
 
+#my-picture {
+    border-color: green;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 5px;
+}
+
 
 .about-me {
     background-color: #9cd08f;
