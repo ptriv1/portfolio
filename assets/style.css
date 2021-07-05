@@ -163,6 +163,12 @@ a:hover {
       padding: 30px;
   }
 
+.portfolio-pictures {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}
+
 #footer {
     background-color: black;
 }
@@ -204,6 +210,12 @@ footer {
         width: auto;
     }
     
+    .code-refactor-picture {
+        display: block;
+        width: 100%;
+        height: auto;
+
+    }
 }
 
 
