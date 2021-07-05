@@ -124,7 +124,8 @@ a:hover {
 
 .projects-container {
     display: flex;
-    flex-direction: row;  
+    flex-direction: row; 
+    justify-content: center; 
 }
 
 .image-opaque: hover {
@@ -156,11 +157,6 @@ a:hover {
     display: inline;
     width: 460px;
     height: 300px;
-}
-
-.portfolio-pictures: hover {
-    opacity: 0.6;
-
 }
 
 .caption-two {
@@ -241,6 +237,8 @@ footer {
         width: 100%;
         height: auto;
     }
+
+    
 }
 
 
