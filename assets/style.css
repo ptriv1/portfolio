@@ -125,7 +125,7 @@ a:hover {
 .projects-container {
     display: flex;
     flex-direction: row; 
-    justify-content: center; 
+    justify-content: center;
 }
 
 .image-opaque: hover {
@@ -137,7 +137,7 @@ a:hover {
     font-size: 20px;
     height: 20px;
     width: 20px;
-    bottom: 80px;
+    bottom: 77px;
     right: -230px;
     background-color: black;
     color: white;
@@ -157,6 +157,7 @@ a:hover {
     display: inline;
     width: 460px;
     height: 300px;
+    margin: 30px;
 }
 
 .caption-two {
@@ -164,8 +165,8 @@ a:hover {
     font-size: 20px;
     height: 20px;
     width: 20px;
-    bottom: 80px;
-    right: -10px;
+    bottom: 104px;
+    right: -30px;
     background-color: black;
     color: white;
     padding-top: 20px;
@@ -180,8 +181,8 @@ a:hover {
     font-size: 20px;
     height: 20px;
     width: 20px;
-    bottom: 80px;
-    right: 100px;
+    bottom: 104px;
+    right: -30px;
     background-color: black;
     color: white;
     padding-top: 20px;
