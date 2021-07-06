@@ -41,7 +41,7 @@ a {
 }
 
 a:hover {
-    color: #ff000f;
+    color: #009f93;
 }
 
 .heading {
@@ -105,11 +105,11 @@ a:hover {
 
 .about-me, .contact {
     background-color: #9cd08f;
-    padding: 30px;
+    padding: 30px 0px;
 }
 
 .projects {
-    background-color: #d5b0ac;
+    background-color: #cce2a3;
     padding: 30px;
     position: relative;
 }
@@ -134,13 +134,13 @@ a:hover {
     font-size: 20px;
     height: 20px;
     width: 20px;
-    bottom: 77px;
+    bottom: 60px;
     right: -230px;
     background-color: black;
     color: white;
-    padding-top: 20px;
+    padding-top: 2px;
     padding-bottom: 30px;
-    padding-left: 50px;
+    padding-left: 2px;
     padding-right: 60px;
     text-align: center;
     justify-content: center;
@@ -164,12 +164,12 @@ a:hover {
     font-size: 20px;
     height: 20px;
     width: 20px;
-    bottom: 104px;
+    bottom: 60px;
     right: -30px;
     background-color: black;
     color: white;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     padding-left: 0px;
     padding-right: 60px;
     text-align: center;
