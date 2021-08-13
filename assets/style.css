@@ -76,8 +76,9 @@ a:hover {
 .about-me {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: auto;
     height: 65vh;
+    margin: 50px;
 }
 
 .flex-left {

@@ -18,3 +18,12 @@ a {
 a:hover {
     color: #009f93;
 }
+
+.project-description {
+    text-align: center;
+}
+
+.titles {
+    font-weight: bold;
+    text-align: center;
+}

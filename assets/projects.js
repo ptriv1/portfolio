@@ -2,7 +2,7 @@ var requestUrl = 'https://api.github.com/users/ptriv1/repos';
 var rottenUrl = 'https://api.github.com/users/jeffcela/repos';
 
 function getProject() {
-  fetch(requestUrl)
+  fetch(rottenUrl)
   .then(function (response) {
     return response.json();
   })
@@ -28,3 +28,8 @@ function getApi() {
 getProject();
 
 getApi();
+
+function createRottenSection() {
+  document.getElementById("rotten-code");
+  
+}
