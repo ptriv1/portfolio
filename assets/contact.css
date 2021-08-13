@@ -4,6 +4,18 @@
     padding: 0;
 }
 
+header {
+    background-color: black;
+    color: #f8f4e3;
+    padding: 10px;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+}
+
 nav {
     text-style: none;
 
@@ -30,6 +42,15 @@ a:hover {
     color: #009f93;
 }
 
-p {
-  font-weight: bold;  
+.paragraph {
+    text-align: center;
+}
+
+#footer {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+    color: #f8f4e3;
 }
