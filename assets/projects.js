@@ -8,9 +8,9 @@ function getProject() {
   })
   .then(function (data) {
     console.log(data)
+    createRottenSection(data);
     }
   );
- 
 }
 
 function getApi() {
@@ -29,7 +29,7 @@ getProject();
 
 getApi();
 
-function createRottenSection() {
-  document.getElementById("rotten-code");
-  
+function createRottenSection(data) {
+  var description = data.description;
+  document.getElementById("rotten-code").append(description);
 }
