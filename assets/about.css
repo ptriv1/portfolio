@@ -4,6 +4,32 @@
     padding: 0;
 }
 
+nav {
+    text-style: none;
+
+}
+
+nav ul {
+    text-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    float: right;
+    padding: 0px 10px 0px 10px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #009f93;
+}
+
 p {
   font-weight: bold;  
 }
