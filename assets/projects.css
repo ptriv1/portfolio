@@ -13,10 +13,16 @@ nav {
 a {
     color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
     color: #009f93;
+}
+
+#rotten-code-url {
+    text-align: center;
+    text-decoration: none;
 }
 
 .project-description {

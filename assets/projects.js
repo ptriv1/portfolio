@@ -30,6 +30,11 @@ getProject();
 getApi();
 
 function createRottenSection(data) {
-  var description = data.description;
-  document.getElementById("rotten-code").append(description);
+  var descriptionSection = document.createElement("div");
+  var rottenTrailersUrl = data[11].html_url;
+  console.log(data[11].html_url);
+  console.log(rottenTrailersUrl);
+  document.getElementById("rotten-code-url").append(rottenTrailersUrl);
+  document.getElementById("rotten-trailers-url").setAttribute("href", data[11].description);
+  
 }
