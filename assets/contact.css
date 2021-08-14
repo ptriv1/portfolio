@@ -4,53 +4,30 @@
     padding: 0;
 }
 
-header {
-    background-color: black;
-    color: #f8f4e3;
-    padding: 10px;
-}
-
-.heading {
-    text-align: center;
-    font-weight: bold;
-    padding: 50px;
-}
-
 nav {
+    background-color: black;
     text-style: none;
-
-}
-
-nav ul {
-    text-style: none;
-    padding: 10px;
-}
-
-nav ul li {
     text-decoration: none;
-    list-style-type: none;
-    float: right;
-    padding: 0px 10px 0px 10px;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
     color: #009f93;
 }
 
+
 .paragraph {
     text-align: center;
 }
 
-#footer {
-    background-color: black;
-}
-
 footer {
     background-color: black;
-    color: #f8f4e3;
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }

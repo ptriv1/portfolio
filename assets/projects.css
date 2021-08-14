@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 nav {
     background-color: black;
     text-style: none;
@@ -25,11 +26,23 @@ a:hover {
     text-decoration: none;
 }
 
+.rotten-trailers-url {
+    justify-content: center;
+    text-align: center;
+}
+
 .project-description {
     text-align: center;
 }
 
 .titles {
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
     font-weight: bold;
     text-align: center;
 }

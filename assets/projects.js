@@ -1,5 +1,12 @@
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems);
+});
+
 var requestUrl = 'https://api.github.com/users/ptriv1/repos';
 var rottenUrl = 'https://api.github.com/users/jeffcela/repos';
+
+
 
 function getProject() {
   fetch(rottenUrl)

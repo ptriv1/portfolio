@@ -4,71 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
-    <title>Pia T's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/projects.css">
+    <title>Pia T's Portfolio Website</title>
 </head>
 <body>
     <header class="header">
-        <nav class="nav">
-            <ul class="navigation">
-                <li class="list-item"><a href="#contact">Contact</a></li>
-                <li class="list-item"><a href="#projects">Projects</a></li>
-                <li class="list-item"><a href="#about-me">About Me</a></li>
-            </ul>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+              
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul> 
         </nav>
     </header>
     
-<section class="flex-container">
+    <section class="flex-container">
     <section class="first-image">
       <img class="picture" src="assets/kristaps-ungurs-IAoAk6VkyAc-unsplash (1).jpg" alt="kristaps image">
-        <section class="centered" class="first-image">I'm Pia, and welcome to my portfolio website!</section>
+        <p id="introduction">I'm Pia, and welcome to my portfolio website!</p>
     </section>
-    <section id="about-me" class="about-me" class="about-container">
-        <section class="flex-left">
-            <h1 class="heading">About Me</h1>
-            <p class="paragraph"> Hi, I'm Pia!  Welcome to my portfolio website.  Currently I work full-time and attend a part-time boot camp for those who want to learn web development.  We are learning HTML, CSS, JavaScript, and more that relate to current technologies.</p>
-            
-            <p class="paragraph">I earned a BBA from a local university and a BA from a different university.  Favorite classes included courses in finance, history, and foreign languages.</p>
-    
-            <p class="paragraph">In my spare time I enjoy reading a wide variety of books, spending time with family, and watching old and new favorites.  Occasionally I also enjoy knitting and made hats and scarves.  If the weather is nice I also enjoy sitting outside and listening to wildlife.</p>
-            
-            <p class="paragraph">This website is a place for you to view my newest projects.</p>
-        </section>
-        <section class="flex-right">
-            <img id="my-picture" src="assets/dinner-picture.jpg" alt="my picture"> 
-        </section>
-    </section>
-
-    <section id="projects" class="projects">
-        <h1 class="heading">Projects</h1>
-        <section class="first-project">
-            <a href="https://github.com/ptriv1/code-refactor-homework" class="image-opaque"><img class="code-refactor-picture" src="assets/first-project.PNG" alt="First project picture"></a>
-            <p class="caption">Code Refactor</p>
-        </section>
-        <section class="projects-container">
-            <section class="project-left"> 
-                <a href="https://github.com/ptriv1/portfolio"><img src="assets/portfolio.PNG" alt="My Portfolio" class="portfolio-pictures"></a>
-                <p class="caption-two">Portfolio</p>
-                
-            </section>
-            <section class="right-project">
-                <a href="https://github.com/ptriv1"><img src="assets/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg" alt="My Github" class="portfolio-pictures"></a>
-                <p class="caption-three">Github</p>
-                
-            </section>
-            
-        </section>
-
-    </section>
-    <section id="contact" class="contact">
-        <h1 class="heading">Contact Me</h1>
-        <p class="paragraph">To get in touch, <a href="mailto:trivedp18@gmail.com">email me.</a>  I'm also on <a href="https://github.com/ptriv1/portfolio">GitHub</a>!</p>
-    </section>
-</section>
-    
-    
     <footer id="footer">
         <p class="paragraph">2021. Website.</p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/projects.js"></script>
 </body>
 </html>
