@@ -12,3 +12,5 @@ GitHub link: https://github.com/ptriv1/portfolio
 
 Image of portfolio: https://ibb.co/sFSnCp7
 
+Contact: trivedp18@gmail.com
+
