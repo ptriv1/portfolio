@@ -13,7 +13,7 @@
     <header>    
         <nav>
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#!" class="brand-logo">PT</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="about.html">About</a></li>
@@ -24,22 +24,21 @@
                 </div>
               
               <ul class="sidenav" id="mobile-demo">
-                <li><a href="about.html">About</a></li>
+                <li><a id+ href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="index.html">Home</a></li>
               </ul> 
         </nav>
     </header>
-    <main>
+    <main id="projects">
         <h1 class="titles">Projects</h1>
         <section>
             <h2 class="titles">Group Project</h2>
             <section id="rotten-code">
                 <h3 class="titles">Rotten Trailers</h3>
-                <img>
-                <a id="rotten-trailers-url">Rotten Trailers Code</a>
-                <p id="rotten-code-url"></p>
+                <p id="rotten"><img id="rotten-picture" src="assets/rotten-trailers.PNG"></p>
+                <p id="centered"><a id="rotten-trailers-url">Rotten Trailers Code</a></p>
                 <p class="project-description">In the first section of the boot camp HTML, CSS, and JavaScript are covered.  My group, the Rotten Trailers group, chose to use RapidAPI, YouTube Data API, and YouTube Player API for the project.  Rotten Trailers allows users of the website to search a movie name and view a rating, the director of the film, and a video clip of the trailer.</p>
             </section>
         </section>
@@ -47,13 +46,18 @@
             <h2 class="titles">Individual Projects</h2>
             <section class="individual-project">
                 <h3>Portfolio</h3>
-                <img>
-                <p class="description"></p>
+                <img class="individual-picture" src="assets/portfolio.PNG">
+                <p id="centered"><a id="portfolio-url">Portfolio Code</a></p>
+                <p class="description">This assignment is my portfolio of programming assignments.  It has several pages and contains links to multiple deployed webpages.  Languages used include HTML, CSS, and JavaScript.</p>
             </section>
             <section class="individual-project">
-                <h3>Password Generator</h3>
-                <img>
-                <p class="description"></p>
+                <h3>Planner</h3>
+                <img class="individual-picture" src="assets/planner.PNG">
+                <p id="centered"><a id="planner-url">Planner Code</a></p>
+                <p class="description"> This assignment is a work day planner.  The planner allows users to enter appointments and when users reload, the appointments persist.  Languages used include HTML, CSS, and JavaScript.</p>
+            </section>
+            <section id="more-projects">
+                <p>To view more of my projects, go to my <a href="https://github.com/ptriv1">GitHub</a>!</p>
             </section>
         </section>
     </main>
