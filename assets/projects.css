@@ -11,22 +11,50 @@ nav {
     text-decoration: none;
 }
 
-a {
+a:hover {
+    color: red;
+}
+
+header {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
 
-a:hover {
-    color: #009f93;
+#projects {
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto;
+    width: 60%;
+}
+
+#rotten-code {
+    justify-content: center;
+    text-align: center;
+}
+
+#rotten {
+    justify-content: center;
+}
+
+#rotten-picture {
+    justify-content: center;
+    text-align: center;
+}
+
+#centered {
+    justify-content: center;
+    text-align: center;
 }
 
 #rotten-code-url {
     text-align: center;
+    justify-content: center;
     text-decoration: none;
 }
 
-.rotten-trailers-url {
+#rotten-trailers-url {
     justify-content: center;
     text-align: center;
 }
@@ -37,6 +65,22 @@ a:hover {
 
 .titles {
     font-weight: bold;
+    text-align: center;
+}
+
+.individual-project {
+    justify-content: center;
+    text-align: center;
+}
+
+.individual-picture {
+    height: 200px;
+    width: auto;
+}
+
+#more-projects {
+    justify-content: center;
+    margin: 30px;
     text-align: center;
 }
 

@@ -4,13 +4,6 @@
     padding: 0;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    text-align: center;
-
-}
 
 nav {
     background-color: black;
@@ -18,37 +11,23 @@ nav {
     text-decoration: none;
 }
 
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
 a:hover {
-    color: #009f93;
+    color: red;
 }
 
-.first-image {
-    display: block;
-    position: relative;
+#centered {
     text-align: center;
-    color: white;
 }
 
-.picture {
-    display: block;
-    max-width: 100%;
+#picture {
     height: auto;
+    width: 100%;
     opacity: 0.6;
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 45px;
-    transform: translate(-50%, -50%);
-  }
+.paragraph {
+    text-align: center;
+}
 
 footer {
     background-color: black;
@@ -56,8 +35,3 @@ footer {
     font-weight: bold;
     text-align: center;
 }
-
-
-
-
-
