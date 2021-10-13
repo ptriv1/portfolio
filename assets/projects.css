@@ -33,16 +33,15 @@ header {
     width: 60%;
 }
 
-#rotten-code {
-    justify-content: center;
-    text-align: center;
-}
-
-#rotten {
+#book {
     justify-content: center;
 }
 
-#rotten-picture {
+#book-club {
+    justify-content: center;
+}
+
+#book-club-picture {
     justify-content: center;
     text-align: center;
 }
@@ -52,16 +51,6 @@ header {
     text-align: center;
 }
 
-#rotten-code-url {
-    text-align: center;
-    justify-content: center;
-    text-decoration: none;
-}
-
-#rotten-trailers-url {
-    justify-content: center;
-    text-align: center;
-}
 
 .project-description {
     text-align: center;
