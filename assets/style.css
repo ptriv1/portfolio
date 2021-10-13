@@ -31,7 +31,7 @@ a:hover {
     color: black;
 }
 
-#description {
+.description {
     position: absolute;
     top: 60%;
     left: 50%;
